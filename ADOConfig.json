@@ -1,0 +1,104 @@
+{
+  "system_name": "Azure DevOps",
+  "username": "aman.varshney@opshub.com",
+  "password": "prev3mzmdcslpnjyibch4jqfk6rnr7txxyg6ipmcrqw5mjdkahwa",
+  "apiUrl": "https://dev.azure.com/",
+  "organisations": [
+    {
+      "name": "amanvarshney0218"
+    },
+    {
+      "name": "amanvarshney0457"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "123",
+      "name": "DemoProject",
+      "teams": [
+        {
+          "name": "DemoProject Team"
+        }
+      ],
+      "areas": [
+        {
+          "name": "DemoProject"
+        }
+      ],
+      "iterations": [
+        {
+          "id": "DemoProject"
+        },
+        {
+          "id": "Sprint 1"
+        },
+        {
+          "id": "Sprint 2"
+        }
+      ]
+    },
+    {
+      "_id": "123",
+      "name": "ABC",
+      "teams": [
+        {
+          "name": "ABC Team"
+        }
+      ]
+    },
+    {
+      "_id": "456",
+      "name": "SampleProject",
+      "teams": [
+        {
+          "id": "23f1bfc1-bc24-4754-8b96-4c62d2b263f1",
+          "name": "SampleProject Team"
+        }
+      ]
+    },
+    {
+      "_id": "456",
+      "name": "Demo2",
+      "teams": [
+        {
+          "name": "Demo2 Team"
+        }
+      ]
+    },
+    {
+      "_id": "123",
+      "name": "demo3",
+      "teams": [
+        {
+          "name": "demo3 Team"
+        }
+      ]
+    },
+    {
+      "_id": "456",
+      "name": "sample123",
+      "teams": [
+        {
+          "name": "sample123 Team"
+        }
+      ]
+    }
+  ],
+  "fields": {
+    "artifacts": {
+
+    },
+    "workitems": {
+
+    },
+    "repos": {
+
+    },
+    "pipelines": {
+
+    },
+    "testplans": {
+
+    }
+  }
+}
