@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 
 public class ADOApiServiceTest {
     private static final String USERNAME = "aman.varshney@opshub.com";
-    private static final String PAT = "t54cxes3dgf5c7atoqzivj3nzmdo4yetl5t53v4muahbwirp2vha";
+    private static final String PAT = "";
     private static final String API_URL = "https://dev.azure.com/";
 
     @Test(dataProvider = "pipelineTestData")

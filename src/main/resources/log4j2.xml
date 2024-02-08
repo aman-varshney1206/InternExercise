@@ -13,7 +13,7 @@
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender"/>
         </Root>
-        <Logger name="com.opshub.JacksonRead" additivity="false" level="info">
+        <Logger name="com.example.JacksonRead" additivity="false" level="info">
             <AppenderRef ref="ConsoleAppender" />
         </Logger>
     </Loggers>

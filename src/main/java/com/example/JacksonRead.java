@@ -1,4 +1,4 @@
-package com.opshub;
+package com.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -37,7 +37,6 @@ public class JacksonRead {
                 }
 
                 // Accessing fields
-                // Map<String, Object> fields = adoConfiguration.getFields();
                 // Access fields based on your specific requirements
 
                 // Accessing mappings
@@ -52,7 +51,6 @@ public class JacksonRead {
 
         } catch (Exception e) {
             LOGGER.error(e.getLocalizedMessage());
-            // e.printStackTrace();
         }
     }
 }
