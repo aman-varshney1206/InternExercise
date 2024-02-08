@@ -40,3 +40,4 @@ build/
 ADOConfig.json
 *.json
 data/
+*.log
