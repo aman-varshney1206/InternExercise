@@ -27,17 +27,10 @@ public class Main {
                 ApiCallScheduler apiCallScheduler = new ApiCallScheduler(adoConfiguration);
                 apiCallScheduler.verifyJSONParseData();
 
-                // Prompt the user for the startDateTime input
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Enter startDateTime (e.g., 2024-02-01T01:45:30 or 2024-02-01): ");
-                String startDateTime = scanner.nextLine();
-
+                ADOApi adoApi = new ADOApi(adoConfiguration);
                 // Accessing organisations, projects
                 List<Organisation> organisations = adoConfiguration.getOrganisations();
                 List<Project> projects = adoConfiguration.getProjects();
-
-                ADOApi adoApi = new ADOApi(adoConfiguration);
-                apiCallScheduler.scheduleAPIRequests(startDateTime, 5, adoApi);
 
                 String organization = organisations.get(0).getName();
                 String project = projects.get(0).getName();
@@ -47,10 +40,10 @@ public class Main {
                 String gitReposResponse = adoApi.getGitRepositories(organization, project);
                 String pipelinesResponse = adoApi.getPipelines(organization, project);
 
-                logAPIResponse(projectsResponse, "projects");
-                logAPIResponse(workItemResponse, "workitem");
-                logAPIResponse(gitReposResponse, "git repos");
-                logAPIResponse(pipelinesResponse, "pipelines");
+                logAPIResponse(ApiCallScheduler.getFormattedJSON(projectsResponse), "projects");
+                logAPIResponse(ApiCallScheduler.getFormattedJSON(workItemResponse), "workitem");
+                logAPIResponse(ApiCallScheduler.getFormattedJSON(gitReposResponse), "git repos");
+                logAPIResponse(ApiCallScheduler.getFormattedJSON(pipelinesResponse), "pipelines");
 
                 List<String> repositoryIds = new ArrayList<>();
                 ObjectMapper objectMapper2 = new ObjectMapper();
@@ -62,9 +55,12 @@ public class Main {
                     repositoryIds.add(repoId);
                 }
 
-                for(String id: repositoryIds) {
-                    System.out.println(id);
-                }
+                // Prompt the user for the startDateTime input
+                Scanner scanner = new Scanner(System.in);
+                System.out.print("Enter startDateTime (e.g., 2024-02-01T01:45:30 or 2024-02-01): ");
+                String startDateTime = scanner.nextLine();
+
+                apiCallScheduler.scheduleAPIRequests(startDateTime, 15, adoApi);
 
             }
 

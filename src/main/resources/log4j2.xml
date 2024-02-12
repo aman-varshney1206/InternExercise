@@ -113,7 +113,7 @@
             <AppenderRef ref="TraceFile"/>
         </Root>
 
-        <Logger name="com.example.Main" level="trace">
+        <Logger name="com.example.Main" level="debug">
             <AppenderRef ref="MainFile"/>
         </Logger>
 

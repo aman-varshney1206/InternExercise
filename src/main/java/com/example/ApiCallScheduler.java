@@ -1,5 +1,6 @@
 package com.example;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +21,7 @@ import com.example.ADOConfiguration.*;
 public class ApiCallScheduler {
     private static final Logger LOGGER = LogManager.getLogger(ApiCallScheduler.class);
 
-    private ADOConfiguration adoConfiguration;
+    private final ADOConfiguration adoConfiguration;
 
     public ApiCallScheduler(ADOConfiguration adoConfig) {
         this.adoConfiguration = adoConfig;
@@ -90,10 +91,25 @@ public class ApiCallScheduler {
 
     private static void logAPIResponse(String response, String entity) {
         if(response != null) {
-            LOGGER.info("{} response: {}", entity, response);
+            LOGGER.info("{} response: {}", entity, getFormattedJSON(response));
         }else {
             LOGGER.error("Failed to get {} response", entity);
         }
+    }
+
+    public static String getFormattedJSON(String json) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            JsonNode jsonNode = objectMapper.readTree(json);
+
+            // Convert JSON node to indented JSON string and return
+            return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonNode);
+
+        } catch (Exception e) {
+            LOGGER.error("Error formatting JSON: {}", e.getMessage());
+        }
+
+        return null;
     }
 
     // Function to make a GET request and return the response as a String

@@ -1,5 +1,7 @@
 
-L	java:S106."+Replace this use of System.out by a logger.(¼ÁÆØùÿÿÿÿ8ÔßÙ1
-L	java:S1063"+Replace this use of System.out by a logger.(¼¯›æøÿÿÿÿ8ÕßÙ1
+A
+java:S2629^"$Invoke method(s) only conditionally.(”Ç±¿8İÿåÙ1
+L	java:S106/"+Replace this use of System.out by a logger.(¼ÁÆØùÿÿÿÿ8ŞåÙ1
+L	java:S1064"+Replace this use of System.out by a logger.(¼¯›æøÿÿÿÿ8ßåÙ1
 U
-java:S1144d"3Remove this unused private "makeGetRequest" method.(Ì½¶Éşÿÿÿÿ8ØßÙ1
+java:S1144t"3Remove this unused private "makeGetRequest" method.(Ì½¶Éşÿÿÿÿ8ãåÙ1
