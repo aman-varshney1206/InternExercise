@@ -4,10 +4,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
-
+import io.github.cdimascio.dotenv.Dotenv;
 public class ADOApiServiceTest {
     private static final String USERNAME = "aman.varshney@opshub.com";
-    private static final String PAT = "";
+    private static final String PAT = Dotenv.load().get("PAT");
     private static final String API_URL = "https://dev.azure.com/";
 
     @Test(dataProvider = "pipelineTestData")

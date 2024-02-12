@@ -1,0 +1,5 @@
+
+L	java:S106."+Replace this use of System.out by a logger.(¼ÁÆØùÿÿÿÿ8ÔßÙ1
+L	java:S1063"+Replace this use of System.out by a logger.(¼¯›æøÿÿÿÿ8ÕßÙ1
+U
+java:S1144d"3Remove this unused private "makeGetRequest" method.(Ì½¶Éşÿÿÿÿ8ØßÙ1

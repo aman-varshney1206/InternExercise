@@ -127,6 +127,39 @@ public class ADOApiService {
         }
     }
 
+    public String createGitRepository(String organization, String project, String repositoryName) {
+        try {
+            String endpoint = String.format("/%s/%s/_apis/git/repositories?api-version=%s", organization, project, API_VERSION);
+            URI uri = new URI(apiUrl + endpoint);
+
+            // Build the request body JSON
+            String requestBody = String.format("{\"name\": \"%s\", \"project\": {\"id\": \"609c8e91-5aa3-4749-85e9-2d20492112ab\"}}", repositoryName);
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(uri)
+                    .header("Authorization", basicAuthHeader)
+                    .header("Content-Type", "application/json")
+                    .POST(HttpRequest.BodyPublishers.ofString(requestBody))
+                    .build();
+
+            HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+            LOGGER.info(response);
+            LOGGER.info(response.body());
+
+            if (response.statusCode() == 201) {
+                return response.body();
+            } else {
+                LOGGER.error("Failed to create Git repository. HTTP status code: {}", response.statusCode());
+                return null;
+            }
+
+        } catch (Exception e) {
+            LOGGER.error(e.getLocalizedMessage());
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     // Helper method to create Basic Authentication header
     private String getBasicAuthHeader(String username, String password) {
         String credentials = username + ":" + password;

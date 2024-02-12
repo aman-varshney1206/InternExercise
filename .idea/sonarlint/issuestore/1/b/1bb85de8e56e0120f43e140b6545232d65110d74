@@ -1,27 +1,31 @@
 
 k
-java:S1192!"NDefine a constant instead of duplicating this literal "Authorization" 4 times.(ãÓ€Ô8×ğˆÃ×1
+java:S1192!"NDefine a constant instead of duplicating this literal "Authorization" 5 times.(ãÓ€Ô8Ì‡é·Ø1
 ~
-java:S2629*"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(½ŒØŸùÿÿÿÿ8ÙğˆÃ×1
+java:S2629*"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(½ŒØŸùÿÿÿÿ8Í‡é·Ø1
 ~
-java:S2629D"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(½ŒØŸùÿÿÿÿ8ÙğˆÃ×1
+java:S2629D"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(½ŒØŸùÿÿÿÿ8Í‡é·Ø1
 ~
-java:S2629^"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(™•ßâùÿÿÿÿ8ÙğˆÃ×1
+java:S2629^"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(™•ßâùÿÿÿÿ8Í‡é·Ø1
 y
-java:S2629x"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ìïš8øê‹Ã×1
+java:S2629x"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ìïš8Í‡é·Ø1
+G
+java:S2629“"$Invoke method(s) only conditionally.(‚Í¨¼şÿÿÿÿ8ûàèÆØ1
 {
-java:S2142."^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8òğˆÃ×1
+java:S2142."^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8á‡é·Ø1
 c
-java:S3457*"AFormat specifiers should be used instead of string concatenation.(½ŒØŸùÿÿÿÿ8øğˆÃ×1
+java:S3457*"AFormat specifiers should be used instead of string concatenation.(½ŒØŸùÿÿÿÿ8ã‡é·Ø1
 {
-java:S2142H"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ùğˆÃ×1
+java:S2142H"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ä‡é·Ø1
 c
-java:S3457D"AFormat specifiers should be used instead of string concatenation.(½ŒØŸùÿÿÿÿ8ûğˆÃ×1
+java:S3457D"AFormat specifiers should be used instead of string concatenation.(½ŒØŸùÿÿÿÿ8æ‡é·Ø1
 {
-java:S2142b"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8üğˆÃ×1
+java:S2142b"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ç‡é·Ø1
 c
-java:S3457^"AFormat specifiers should be used instead of string concatenation.(™•ßâùÿÿÿÿ8şğˆÃ×1
+java:S3457^"AFormat specifiers should be used instead of string concatenation.(™•ßâùÿÿÿÿ8è‡é·Ø1
 {
-java:S2142|"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8˜ë‹Ã×1
+java:S2142|"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8é‡é·Ø1
 ^
-java:S3457x"AFormat specifiers should be used instead of string concatenation.(ìïš8™ë‹Ã×1
+java:S3457x"AFormat specifiers should be used instead of string concatenation.(ìïš8ê‡é·Ø1
+|
+java:S2142œ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8³„ŞÆØ1

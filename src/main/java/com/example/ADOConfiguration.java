@@ -8,7 +8,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class ADOConfiguration2 {
+public class ADOConfiguration {
     private String systemName;
     private String username;
     private String password;

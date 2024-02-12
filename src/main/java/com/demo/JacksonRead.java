@@ -1,5 +1,6 @@
-package com.example;
+package com.demo;
 
+import com.example.ADOConfiguration;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
@@ -15,7 +16,7 @@ public class JacksonRead {
     public static void main(String[] args) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            ADOConfiguration2 adoConfiguration = objectMapper.readValue(new File(".\\data\\ADOConfig.json"), ADOConfiguration2.class);
+            ADOConfiguration adoConfiguration = objectMapper.readValue(new File(".\\data\\ADOConfig.json"), ADOConfiguration.class);
 
             // Accessing configuration data
             if (adoConfiguration != null) {
@@ -24,14 +25,14 @@ public class JacksonRead {
                 LOGGER.info("API URL: {}", adoConfiguration.getApiUrl());
 
                 // Accessing organisations
-                List<ADOConfiguration2.Organisation> organisations = adoConfiguration.getOrganisations();
-                for (ADOConfiguration2.Organisation organisation : organisations) {
+                List<ADOConfiguration.Organisation> organisations = adoConfiguration.getOrganisations();
+                for (ADOConfiguration.Organisation organisation : organisations) {
                     LOGGER.info("Organisation: {}", organisation.getName());
                 }
 
                 // Accessing projects
-                List<ADOConfiguration2.Project> projects = adoConfiguration.getProjects();
-                for (ADOConfiguration2.Project project : projects) {
+                List<ADOConfiguration.Project> projects = adoConfiguration.getProjects();
+                for (ADOConfiguration.Project project : projects) {
                     LOGGER.info("Project: {}", project.getName());
                     // Accessing teams, areas, and iterations similarly...
                 }
@@ -40,13 +41,13 @@ public class JacksonRead {
                 // Access fields based on your specific requirements
 
                 // Accessing mappings
-                ADOConfiguration2.Mappings mappings = adoConfiguration.getMappings();
+                ADOConfiguration.Mappings mappings = adoConfiguration.getMappings();
                 Map<String, String> workItemMappings = mappings.getWorkItems();
                 for (Map.Entry<String, String> entry : workItemMappings.entrySet()) {
                     LOGGER.info("Work Item Mapping: {} -> {}", entry.getKey(), entry.getValue());
                 }
             } else {
-                LOGGER.info("Failed to create ADOConfiguration2 from JSON.");
+                LOGGER.info("Failed to create ADOConfiguration from JSON.");
             }
 
         } catch (Exception e) {

@@ -6,6 +6,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
@@ -43,12 +44,27 @@ public class Main {
                 String organization = adoConfiguration.getOrganisations().get(0).getName();
                 String project = String.valueOf(adoConfiguration.getProjects().get(1).getName());
 
+                for(int i=3; i < 500; i++)
+                {
+                    String repoName = "Testing" + i;
+                    String createGitRepoResponse = adoApiService.createGitRepository(organization, project, repoName);
+                    if (createGitRepoResponse != null) {
+                        System.out.println("Create Git Repo Response:");
+                        System.out.println(createGitRepoResponse);
+                    } else {
+                        System.out.println("Failed to get projects.");
+                    }
+                    TimeUnit.SECONDS.sleep(4);
+                }
+
                 String pipelinesResponse = adoApiService.getPipelines(organization, project);
                 String projectsResponse = adoApiService.getProjects(organization);
                 String workItemResponse = adoApiService.getWorkItem(organization, project, "10");
                 String gitReposResponse = adoApiService.getGitRepositories(organization, project);
 
-                if (projectsResponse != null) {
+
+
+                /*if (projectsResponse != null) {
                     System.out.println("Project Response:");
                     // LOGGER.debug(projectsResponse);
                     System.out.println(projectsResponse);
@@ -71,7 +87,7 @@ public class Main {
                 } else {
                     System.out.println("Failed to get workitem");
                 }
-
+*/
                 if(gitReposResponse != null) {
                     System.out.println("Git Repo response: ");
                     System.out.println(gitReposResponse);

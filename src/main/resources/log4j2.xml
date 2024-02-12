@@ -1,20 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
+
+    <Properties>
+        <Property name="log-path">logs</Property>
+    </Properties>
+
     <Appenders>
+
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
         </Console>
+
         <File name="FileAppender" fileName="application-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
+
+        <RollingFile name="File" fileName="${log-path}/app.log"
+                     filePattern="${log-path}/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Daily RollingFile Appender for INFO logs -->
+        <RollingFile name="InfoFile" fileName="${log-path}/info/info.log"
+                     filePattern="${log-path}/info/info-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="info"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Daily RollingFile Appender for WARN logs -->
+        <RollingFile name="WarnFile" fileName="${log-path}/warn/warn.log"
+                     filePattern="${log-path}/warn/warn-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="warn"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Daily RollingFile Appender for ERROR logs -->
+        <RollingFile name="ErrorFile" fileName="${log-path}/error/error.log"
+                     filePattern="${log-path}/error/error-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="error"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Daily RollingFile Appender for DEBUG logs -->
+        <RollingFile name="DebugFile" fileName="${log-path}/debug/debug.log"
+                     filePattern="${log-path}/debug/debug-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="debug"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Daily RollingFile Appender for TRACE logs -->
+        <RollingFile name="TraceFile" fileName="${log-path}/trace/trace.log"
+                     filePattern="${log-path}/trace/trace-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="trace"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- RollingFile Appender for file-specific logs (Main.java) -->
+        <RollingFile name="MainFile" fileName="${log-path}/file-specific/com-example-Main/Main.log"
+                     filePattern="${log-path}/com-example-Main/Main-%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="all"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+
     </Appenders>
     <Loggers>
-        <Root level="debug">
+        <!--<Root level="debug">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender"/>
+        </Root>-->
+        <!-- Root Logger -->
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="InfoFile"/>
+            <AppenderRef ref="WarnFile"/>
+            <AppenderRef ref="ErrorFile"/>
+            <AppenderRef ref="DebugFile"/>
+            <AppenderRef ref="TraceFile"/>
         </Root>
-        <Logger name="com.example.JacksonRead" additivity="false" level="info">
-            <AppenderRef ref="ConsoleAppender" />
+
+        <Logger name="com.example.Main" level="trace">
+            <AppenderRef ref="MainFile"/>
         </Logger>
+
     </Loggers>
 </Configuration>
