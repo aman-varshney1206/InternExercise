@@ -15,17 +15,17 @@
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
 
-        <RollingFile name="File" fileName="${log-path}/app.log"
+        <!--<RollingFile name="File" fileName="${log-path}/app-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/app-%d{yyyy-MM-dd}-%i.log.gz">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <Policies>
                 <SizeBasedTriggeringPolicy size="10 MB"/>
             </Policies>
             <DefaultRolloverStrategy max="5"/>
-        </RollingFile>
+        </RollingFile>-->
 
         <!-- Daily RollingFile Appender for INFO logs -->
-        <RollingFile name="InfoFile" fileName="${log-path}/info/info.log"
+        <RollingFile name="InfoFile" fileName="${log-path}/info/info-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/info/info-%d{yyyy-MM-dd}.log.gz">
             <ThresholdFilter level="info"/>
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -37,7 +37,7 @@
         </RollingFile>
 
         <!-- Daily RollingFile Appender for WARN logs -->
-        <RollingFile name="WarnFile" fileName="${log-path}/warn/warn.log"
+        <RollingFile name="WarnFile" fileName="${log-path}/warn/warn-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/warn/warn-%d{yyyy-MM-dd}.log.gz">
             <ThresholdFilter level="warn"/>
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -49,7 +49,7 @@
         </RollingFile>
 
         <!-- Daily RollingFile Appender for ERROR logs -->
-        <RollingFile name="ErrorFile" fileName="${log-path}/error/error.log"
+        <RollingFile name="ErrorFile" fileName="${log-path}/error/error-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/error/error-%d{yyyy-MM-dd}.log.gz">
             <ThresholdFilter level="error"/>
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -61,7 +61,7 @@
         </RollingFile>
 
         <!-- Daily RollingFile Appender for DEBUG logs -->
-        <RollingFile name="DebugFile" fileName="${log-path}/debug/debug.log"
+        <RollingFile name="DebugFile" fileName="${log-path}/debug/debug-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/debug/debug-%d{yyyy-MM-dd}.log.gz">
             <ThresholdFilter level="debug"/>
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -73,7 +73,7 @@
         </RollingFile>
 
         <!-- Daily RollingFile Appender for TRACE logs -->
-        <RollingFile name="TraceFile" fileName="${log-path}/trace/trace.log"
+        <RollingFile name="TraceFile" fileName="${log-path}/trace/trace-${date:yyyyMMdd}.log"
                      filePattern="${log-path}/trace/trace-%d{yyyy-MM-dd}.log.gz">
             <ThresholdFilter level="trace"/>
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -104,7 +104,7 @@
             <AppenderRef ref="FileAppender"/>
         </Root>-->
         <!-- Root Logger -->
-        <Root level="debug">
+        <Root level="trace">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="InfoFile"/>
             <AppenderRef ref="WarnFile"/>

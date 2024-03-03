@@ -1,0 +1,81 @@
+
+b
+java:S1192C"LDefine a constant instead of duplicating this literal "description" 3 times.(åÅ·Ù
+c
+java:S1192•"GDefine a constant instead of duplicating this literal "teams/" 4 times.(ã«ûÿÿÿÿ
+b
+java:S1192†"FDefine a constant instead of duplicating this literal "teams" 3 times.(˜ÑËáûÿÿÿÿ
+o	java:S116"URename this field "CONNECTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤œ²íÿÿÿÿÿ
+f	java:S116"QRename this field "MAPPER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ï¼“
+d	java:S116"ORename this field "CORE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€İÍÔ
+d	java:S116"ORename this field "AREA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áúÈ
+7
+java:S1170"!Make this final field static too.(€İÍÔ
+7
+java:S1170"!Make this final field static too.(áúÈ
+G
+java:S3599A",Use another way to initialize this instance.(·˜¡Ùúÿÿÿÿ
+t
+java:S1171A"YMove the contents of this initializer to a standard constructor or to field initializers.(·˜¡Ùúÿÿÿÿ
+B
+java:S3599D",Use another way to initialize this instance.(Û˜èÑ
+o
+java:S1171D"YMove the contents of this initializer to a standard constructor or to field initializers.(Û˜èÑ
+G
+java:S3599E",Use another way to initialize this instance.(Š°´Ïÿÿÿÿÿ
+t
+java:S1171E"YMove the contents of this initializer to a standard constructor or to field initializers.(Š°´Ïÿÿÿÿÿ
+B
+java:S3599H",Use another way to initialize this instance.(ˆÔôç
+o
+java:S1171H"YMove the contents of this initializer to a standard constructor or to field initializers.(ˆÔôç
+G
+java:S3599a",Use another way to initialize this instance.(·˜¡Ùúÿÿÿÿ
+t
+java:S1171a"YMove the contents of this initializer to a standard constructor or to field initializers.(·˜¡Ùúÿÿÿÿ
+B
+java:S3599d",Use another way to initialize this instance.(Û˜èÑ
+o
+java:S1171d"YMove the contents of this initializer to a standard constructor or to field initializers.(Û˜èÑ
+G
+java:S3599e",Use another way to initialize this instance.(Š°´Ïÿÿÿÿÿ
+t
+java:S1171e"YMove the contents of this initializer to a standard constructor or to field initializers.(Š°´Ïÿÿÿÿÿ
+B
+java:S3599h",Use another way to initialize this instance.(ˆÔôç
+o
+java:S1171h"YMove the contents of this initializer to a standard constructor or to field initializers.(ˆÔôç
+H
+java:S3599¢",Use another way to initialize this instance.(¬’Ë¨øÿÿÿÿ
+u
+java:S1171¢"YMove the contents of this initializer to a standard constructor or to field initializers.(¬’Ë¨øÿÿÿÿ
+H
+java:S3599Ø",Use another way to initialize this instance.(¬’Ë¨øÿÿÿÿ
+u
+java:S1171Ø"YMove the contents of this initializer to a standard constructor or to field initializers.(¬’Ë¨øÿÿÿÿ
+H
+java:S3599",Use another way to initialize this instance.(ü‰¡˜ûÿÿÿÿ
+u
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ü‰¡˜ûÿÿÿÿ
+n
+java:S2737˜"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+H
+java:S3599¸",Use another way to initialize this instance.(¬’Ë¨øÿÿÿÿ
+u
+java:S1171¸"YMove the contents of this initializer to a standard constructor or to field initializers.(¬’Ë¨øÿÿÿÿ
+H
+java:S3599Û",Use another way to initialize this instance.(¬’Ë¨øÿÿÿÿ
+u
+java:S1171Û"YMove the contents of this initializer to a standard constructor or to field initializers.(¬’Ë¨øÿÿÿÿ
+H
+java:S3599ó",Use another way to initialize this instance.(ü‰¡˜ûÿÿÿÿ
+u
+java:S1171ó"YMove the contents of this initializer to a standard constructor or to field initializers.(ü‰¡˜ûÿÿÿÿ
+C
+java:S3599œ",Use another way to initialize this instance.(—ƒ¸©
+p
+java:S1171œ"YMove the contents of this initializer to a standard constructor or to field initializers.(—ƒ¸©
+H
+java:S3599",Use another way to initialize this instance.(ñˆûÿÿÿÿÿ
+u
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ñˆûÿÿÿÿÿ

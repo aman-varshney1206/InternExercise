@@ -1,0 +1,142 @@
+
+f
+java:S1192€"IDefine a constant instead of duplicating this literal "/fields/" 3 times.(Ë“İ18›šâŸŞ1
+n
+java:S11926"LDefine a constant instead of duplicating this literal "/workitems" 24 times.(á„©ïøÿÿÿÿ8›šâŸŞ1
+m
+java:S1192Ö"JDefine a constant instead of duplicating this literal "revisions" 3 times.(­´²øÿÿÿÿ8›šâŸŞ1
+d
+java:S11922"GDefine a constant instead of duplicating this literal "value" 10 times.(·øÄ·8›šâŸŞ1
+w
+java:S11920"UDefine a constant instead of duplicating this literal "/fields/System.Title" 3 times.(¨É¼öúÿÿÿÿ8›šâŸŞ1
+g
+java:S1192Á"IDefine a constant instead of duplicating this literal "$expand" 14 times.(–Èã8›šâŸŞ1
+f
+java:S1192†"HDefine a constant instead of duplicating this literal "fields/" 3 times.(íöƒï8›šâŸŞ1
+j
+java:S1192à"GDefine a constant instead of duplicating this literal "fields" 8 times.(à—êßúÿÿÿÿ8›šâŸŞ1
+v	java:S135³"YReduce the total number of break and continue statements in this loop to use at most one.(¤²³ê8œšâŸŞ1
+v	java:S116"URename this field "CONNECTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤œ²íÿÿÿÿÿ8îšâŸŞ1
+m	java:S116"QRename this field "MAPPER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ï¼“8îšâŸŞ1
+p	java:S116"ORename this field "AREA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÚÒøÿÿÿÿ8îšâŸŞ1
+j	java:S116"NRename this field "WIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ÿô²8îšâŸŞ1
+C
+java:S1170"!Make this final field static too.(•ÚÒøÿÿÿÿ8îšâŸŞ1
+>
+java:S1170"!Make this final field static too.(½Ÿô²8îšâŸŞ1
+N
+java:S3599.",Use another way to initialize this instance.(ùø£÷úÿÿÿÿ8òšâŸŞ1
+{
+java:S1171."YMove the contents of this initializer to a standard constructor or to field initializers.(ùø£÷úÿÿÿÿ8òšâŸŞ1
+N
+java:S3599C",Use another way to initialize this instance.(‰ºÛ´úÿÿÿÿ8óšâŸŞ1
+{
+java:S1171C"YMove the contents of this initializer to a standard constructor or to field initializers.(‰ºÛ´úÿÿÿÿ8óšâŸŞ1
+I
+java:S3599J",Use another way to initialize this instance.(øÑ—‹8óšâŸŞ1
+v
+java:S1171J"YMove the contents of this initializer to a standard constructor or to field initializers.(øÑ—‹8óšâŸŞ1
+I
+java:S3599Q",Use another way to initialize this instance.(×è¡¬8ôšâŸŞ1
+v
+java:S1171Q"YMove the contents of this initializer to a standard constructor or to field initializers.(×è¡¬8ôšâŸŞ1
+N
+java:S3599l",Use another way to initialize this instance.(‰ºÛ´úÿÿÿÿ8õšâŸŞ1
+{
+java:S1171l"YMove the contents of this initializer to a standard constructor or to field initializers.(‰ºÛ´úÿÿÿÿ8õšâŸŞ1
+I
+java:S3599s",Use another way to initialize this instance.(øÑ—‹8öšâŸŞ1
+v
+java:S1171s"YMove the contents of this initializer to a standard constructor or to field initializers.(øÑ—‹8öšâŸŞ1
+V
+java:S2864}"4Iterate over the "entrySet" instead of the "keySet".(Á¡‚úÿÿÿÿ8öšâŸŞ1
+I
+java:S3599~",Use another way to initialize this instance.(£ã®œ8öšâŸŞ1
+v
+java:S1171~"YMove the contents of this initializer to a standard constructor or to field initializers.(£ã®œ8öšâŸŞ1
+u
+java:S2737«"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8øšâŸŞ1
+O
+java:S3599¢",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8øšâŸŞ1
+|
+java:S1171¢"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8øšâŸŞ1
+O
+java:S3599À",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ùšâŸŞ1
+|
+java:S1171À"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8ùšâŸŞ1
+O
+java:S3599Ï",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8úšâŸŞ1
+|
+java:S1171Ï"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8úšâŸŞ1
+O
+java:S3599ß",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ûšâŸŞ1
+|
+java:S1171ß"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8ûšâŸŞ1
+O
+java:S3599ï",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ûšâŸŞ1
+|
+java:S1171ï"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8üšâŸŞ1
+O
+java:S3599€",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8üšâŸŞ1
+|
+java:S1171€"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8üšâŸŞ1
+O
+java:S3599",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ıšâŸŞ1
+|
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8ıšâŸŞ1
+O
+java:S3599Ÿ",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8şšâŸŞ1
+|
+java:S1171Ÿ"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8şšâŸŞ1
+O
+java:S3599°",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ÿšâŸŞ1
+|
+java:S1171°"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8ÿšâŸŞ1
+O
+java:S3599Â",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8€›âŸŞ1
+|
+java:S1171Â"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8€›âŸŞ1
+O
+java:S3599à",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8›âŸŞ1
+|
+java:S1171à"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8›âŸŞ1
+O
+java:S3599ğ",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8‚›âŸŞ1
+|
+java:S1171ğ"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8‚›âŸŞ1
+O
+java:S3599",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8ƒ›âŸŞ1
+|
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8•›âŸŞ1
+O
+java:S3599",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8–›âŸŞ1
+|
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8—›âŸŞ1
+R
+java:S2864»"4Iterate over the "entrySet" instead of the "keySet".(ÉÎ´8˜›âŸŞ1
+J
+java:S3599¼",Use another way to initialize this instance.(£ã®œ8˜›âŸŞ1
+w
+java:S1171¼"YMove the contents of this initializer to a standard constructor or to field initializers.(£ã®œ8˜›âŸŞ1
+R
+java:S2864ä"4Iterate over the "entrySet" instead of the "keySet".(ÉÎ´8™›âŸŞ1
+J
+java:S3599å",Use another way to initialize this instance.(£ã®œ8™›âŸŞ1
+w
+java:S1171å"YMove the contents of this initializer to a standard constructor or to field initializers.(£ã®œ8š›âŸŞ1
+O
+java:S3599ğ",Use another way to initialize this instance.(Ù¯•¯øÿÿÿÿ8š›âŸŞ1
+|
+java:S1171ğ"YMove the contents of this initializer to a standard constructor or to field initializers.(Ù¯•¯øÿÿÿÿ8š›âŸŞ1
+?
+java:S3457À"!Single quote "'" must be escaped.(‰ë»Ê8›âŸŞ1
+O
+java:S3599ø",Use another way to initialize this instance.(­›Õ•ùÿÿÿÿ8›âŸŞ1
+|
+java:S1171ø"YMove the contents of this initializer to a standard constructor or to field initializers.(­›Õ•ùÿÿÿÿ8Ÿ›âŸŞ1
+u
+java:S2737¢"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8 ›âŸŞ1
+J
+java:S3599¬",Use another way to initialize this instance.(­éæó8 ›âŸŞ1
+w
+java:S1171¬"YMove the contents of this initializer to a standard constructor or to field initializers.(­éæó8 ›âŸŞ1

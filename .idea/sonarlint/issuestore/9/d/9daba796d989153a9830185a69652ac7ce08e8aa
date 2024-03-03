@@ -1,7 +1,15 @@
 
-A
-java:S2629^"$Invoke method(s) only conditionally.(”Ç±¿8İÿåÙ1
-L	java:S106/"+Replace this use of System.out by a logger.(¼ÁÆØùÿÿÿÿ8ŞåÙ1
-L	java:S1064"+Replace this use of System.out by a logger.(¼¯›æøÿÿÿÿ8ßåÙ1
-U
-java:S1144t"3Remove this unused private "makeGetRequest" method.(Ì½¶Éşÿÿÿÿ8ãåÙ1
+L	java:S1060"+Replace this use of System.out by a logger.(¼ÁÆØùÿÿÿÿ8­Ÿ¹şÛ1
+L	java:S1065"+Replace this use of System.out by a logger.(¼¯›æøÿÿÿÿ8­Ÿ¹şÛ1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8³ÃĞşÛ1
+L	java:S106C"+Replace this use of System.out by a logger.(É•å–øÿÿÿÿ8®Ÿ¹şÛ1
+G	java:S106R"+Replace this use of System.out by a logger.(Ùµ¯º8®Ÿ¹şÛ1
+L	java:S106T"+Replace this use of System.out by a logger.(“¹îÔÿÿÿÿÿ8®Ÿ¹şÛ1
+G	java:S106W"+Replace this use of System.out by a logger.(Î¬•ô8±Ÿ¹şÛ1
+T
+java:S1481f"2Remove this unused "lastValueNode" local variable.(Šµ«Æûÿÿÿÿ8Òş’€Ü1
+X	java:S125i"<This block of commented-out lines of code should be removed.(‡¾Üº8Òş’€Ü1
+H	java:S106"+Replace this use of System.out by a logger.(¦æ«å8±²ôşÛ1
+V
+java:S1144Ó"3Remove this unused private "makeGetRequest" method.(Ì½¶Éşÿÿÿÿ8µŸ¹şÛ1

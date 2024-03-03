@@ -1,0 +1,7 @@
+
+G	java:S106&"+Replace this use of System.out by a logger.(ğ¼š8÷Ò‚¥à1
+G	java:S106'"+Replace this use of System.out by a logger.(½€ğÊ8øÒ‚¥à1
+G	java:S106)"+Replace this use of System.out by a logger.(¥±Ÿ–8ùÒ‚¥à1
+L	java:S106+"+Replace this use of System.out by a logger.(Ãòäƒşÿÿÿÿ8øŞ‹¥à1
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8“ƒ¨à1

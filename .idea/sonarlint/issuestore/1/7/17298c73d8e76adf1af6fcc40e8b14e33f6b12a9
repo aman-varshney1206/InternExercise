@@ -1,0 +1,11 @@
+
+u
+java:S3008"ZRename this field "REDIRECT_POLICY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É–Òëüÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(­€¤Ø
+š
+java:S1130S"xRemove the declaration of thrown exception 'org.ado.exceptions.AdoException', as it cannot be thrown from method's body.(”êÎûÿÿÿÿ8¬È‚Ş1
+š
+java:S1130`"xRemove the declaration of thrown exception 'org.ado.exceptions.AdoException', as it cannot be thrown from method's body.(”êÎûÿÿÿÿ8­È‚Ş1
+š
+java:S1130m"xRemove the declaration of thrown exception 'org.ado.exceptions.AdoException', as it cannot be thrown from method's body.(”êÎûÿÿÿÿ8°È‚Ş1

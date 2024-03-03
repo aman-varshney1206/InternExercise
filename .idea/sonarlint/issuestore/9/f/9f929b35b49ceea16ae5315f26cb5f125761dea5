@@ -1,0 +1,29 @@
+
+J
+java:S3740W"/Provide the parametrized type for this generic.(áÖ‡éÿÿÿÿÿ
+K
+java:S3740Ä"/Provide the parametrized type for this generic.(áÖ‡éÿÿÿÿÿ
+R	java:S107N"=Method has 11 parameters, which is greater than 7 authorized.(“ï’È
+X	java:S107º"=Method has 14 parameters, which is greater than 7 authorized.(íöË‰ùÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÙßÃÉÿÿÿÿÿ
+g
+java:S3252^"EUse static access with "org.ado.utils.BaseRestClient" for "response".(ì°Š‘ÿÿÿÿÿ8ö±‚Ş1
+b
+java:S3252|"EUse static access with "org.ado.utils.BaseRestClient" for "response".(Ù”æü8÷±‚Ş1
+h
+java:S3252›"EUse static access with "org.ado.utils.BaseRestClient" for "response".(ÃÍÿÀøÿÿÿÿ8ø±‚Ş1
+j
+java:S3252Ñ"GUse static access with "org.ado.utils.BaseRestClient" for "getBuilder".(ˆÿÃùøÿÿÿÿ8ú±‚Ş1
+R
+java:S2864Ò"4Iterate over the "entrySet" instead of the "keySet".(­Íá÷8ú±‚Ş1
+f
+java:S3252Ø"HUse static access with "org.ado.utils.BaseRestClient" for "getResponse".(°Ú†8ú±‚Ş1
+k
+java:S3252Ú"HUse static access with "org.ado.utils.BaseRestClient" for "getResponse".(”ï¯üÿÿÿÿ8û±‚Ş1
+f
+java:S3252Ü"HUse static access with "org.ado.utils.BaseRestClient" for "getResponse".(å…Ç8û±‚Ş1
+k
+java:S3252Ş"HUse static access with "org.ado.utils.BaseRestClient" for "getResponse".(ß½Ğ‘øÿÿÿÿ8û±‚Ş1
+k
+java:S3252à"HUse static access with "org.ado.utils.BaseRestClient" for "getResponse".(½”Á’ıÿÿÿÿ8û±‚Ş1

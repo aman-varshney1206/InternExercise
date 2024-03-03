@@ -1,0 +1,28 @@
+
+V
+java:S1854!":Remove this useless assignment to local variable "adoApi".(ñ¶¹`8ûð§µÜ1
+b
+java:S1854&"@Remove this useless assignment to local variable "organization".(¾ø‚åüÿÿÿÿ8ûð§µÜ1
+_
+java:S1854'"=Remove this useless assignment to local variable "projectId".(žœøëúÿÿÿÿ8—¨ÞüÛ1
+G
+java:S1481!"+Remove this unused "adoApi" local variable.(ñ¶¹`8¥ñ§µÜ1
+S
+java:S1481&"1Remove this unused "organization" local variable.(¾ø‚åüÿÿÿÿ8¦ñ§µÜ1
+P
+java:S1481'".Remove this unused "projectId" local variable.(žœøëúÿÿÿÿ8¨¨ÞüÛ1
+]	java:S125)"<This block of commented-out lines of code should be removed.(±’ê˜þÿÿÿÿ8ï«ßüÛ1
+]	java:S125,"<This block of commented-out lines of code should be removed.(Ç¸“€üÿÿÿÿ8š·ÝüÛ1
+]	java:S125."<This block of commented-out lines of code should be removed.(˜ë‘Óýÿÿÿÿ8”„’üÛ1
+]	java:S1251"<This block of commented-out lines of code should be removed.(øûÍ©þÿÿÿÿ8Š£ÝüÛ1
+X	java:S1253"<This block of commented-out lines of code should be removed.(²²Ûë8ªÎÏüÛ1
+]	java:S1256"<This block of commented-out lines of code should be removed.(ëà¿Œþÿÿÿÿ8ÌðÜüÛ1
+]	java:S125;"<This block of commented-out lines of code should be removed.(î¨ŠÂþÿÿÿÿ8¨ñ§µÜ1
+]	java:S125>"<This block of commented-out lines of code should be removed.(÷©ƒ³úÿÿÿÿ8ÒšÏüÛ1
+X	java:S125C"<This block of commented-out lines of code should be removed.(ÿŠˆš8‘ƒÏüÛ1
+]	java:S125H"<This block of commented-out lines of code should be removed.(çÁ¥‡ÿÿÿÿÿ8ÜãÎüÛ1
+X	java:S125O"<This block of commented-out lines of code should be removed.(‹Éÿ¼8–„’üÛ1
+P
+java:S1144\"3Remove this unused private "logAPIResponse" method.(ªËÊ8Œ£ÝüÛ1
+T
+java:S1144d"7Remove this unused private "createAddOperation" method.(¯Ë™§8˜„’üÛ1
